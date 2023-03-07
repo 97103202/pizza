@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Soort Prijs per stuk
+    Pizza Margherita 12,50
+    Pizza Funghi 12,50
+    Pizza Marina 13,95
+    Pizza Hawai 11,50
+    Pizza Quaro Formaggi 14,50
+    19
+
+
+    <?php 
+    if(isset($_POST["submit"])){ 
+        $naam=$_POST["naam"]; 
+        $land=$_POST["land"]; 
+        if($land=='NL'){ 
+            echo 'Goedemorgen'.$naam; 
+        } elseif($land=='DE'){ 
+            echo 'Guten Morgen '.$naam; 
+        } elseif($land=='EN'){ 
+            echo 'Good morning '.$naam; 
+    }
+    } 
+
+
+    
+    ?>
+
+</body>
+
+</html>
