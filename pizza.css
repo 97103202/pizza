@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+#con,
+#pic1 {
+    background-image: url("pizzapic/pic1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 14%;
+}
+
+#pic1text {
+    font-size: 5cm;
+    color: yellow;
+    text-align: center;
+    margin-top: -28%;
+    margin-bottom: 90px;
+}
+
+.order {
+    text-decoration: none;
+    display: inline-block;
+    color: yellow;
+    border: 20px solid yellow;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 5%;
+    font-size: 7.6cm;
+}
+
+.menu {
+    margin-top: 900px;
+}
+
+
+
+
+
+
+
+#pic2 {
+    background-image: url("pizzapic/pic2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 15%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.title {
+    color: brown;
+    font-size: 3cm;
+}
+
+
+#pictitle {
+    font-size: 10cm;
+    color: yellow;
+    text-shadow: #000 3px 3px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.pic2text {
+    font-size: 3cm;
+}
+
+#pic3 {
+    background-image: url("pizzapic/pic5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 15%;
+}
+
+#title3 {
+    font-size: 9cm;
+    color: yellow;
+    text-shadow: #000 3px 3px 1px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+
+}
+
+#choices {
+    text-align: center;
+    color: yellow;
+
+}
+
+
+
+
+
+.order-name {
+    font-size: 3cm;
+
+}
+
+
+
+#number {
+    background-color: green;
+    width: 560px;
+    height: 110px;
+    line-height: 1.65;
+    border: 1px solid #eee;
+    font-size: 2cm;
+}
+
+#pic4 {
+    background-image: url("pizzapic/pic4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: 23%;
+    padding-top: 50px;
+}
+
+#form {
+    text-align: center;
+    font-size: 3cm;
+    border: 7px solid yellow;
+    color: yellow;
+}
+
+.gegevens {
+    background-color: yellow;
+    font-size: 1.5cm;
+
+}
+
+.next {
+    text-decoration: none;
+    display: inline-block;
+    color: yellow;
+    border: 20px solid yellow;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 5%;
+    font-size: 16cm;
+}
+
+
+.input {
+    font-size: 1cm;
+}
